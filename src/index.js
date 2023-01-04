@@ -1,14 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import SearchBar from './components/search_bar';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
 const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
-const axios = require('axios');
 
-const App = () => {
+class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      videos: [],
+      selectedVideo: null,
+    };
+
+    this.videoSearch = this.videoSearch.bind(this);
+  }
+
+
   // Passing (search) term to axios API request
-  const videoSearch = term => {
+  videoSearch(term) {
     // define base url
     const url = 'https://www.googleapis.com/youtube/v3/search';
 
@@ -17,29 +29,39 @@ const App = () => {
       part: 'snippet',
       key: API_KEY,
       q: term,
-      type: 'video',
+      type: 'video'
     };
 
     // use axios to RETURN A PROMISE based on API response
+    
+    // Alternatively, to avoid hitting the rate limit with API calls (and therefore being locked out from accessing data) we can add 'dummy data' from the API response to a file (./public/data.json) and request from that
+    
+    // axios.get('./data.json')
     axios.get(url, { params: params })
+      // Access data returned from API
       .then(response => {
         console.log(response);
+        // ...then call this.setState to update model props. (don't forget to bind this!)
+        this.setState({
+          videos: response.data.items,
+          selectedVideo: response.data.items[0]
+        })
       })
       .catch(error => {
-        console.log(error);
+        console.error(error);
       });
   };
 
-  return (
-    <div>
-      <SearchBar onSearchTermChange={videoSearch} />
-    </div>
-  )
-
+  render() {
+    return (
+      <div>
+        <SearchBar onSearchTermChange={this.videoSearch} />
+      </div>
+    );
+  }
 };
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,

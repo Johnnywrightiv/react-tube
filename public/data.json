@@ -1,0 +1,223 @@
+{
+  "data": {
+    "kind": "youtube#searchListResponse",
+    "etag": "OtZIiKnCZZbHBvwLVyUqGT4fAYs",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "US",
+    "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "ltTAUIKMsYVyeKAG_vGGp5cIFxU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "CDUm5smMC1k"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-23T12:00:12Z",
+          "channelId": "UCYPrd7A27nLhQONcCIfFTaA",
+          "title": "😂 LAUGH Non-Stop With These Funny Cats 😹 - Funniest Cats Expression Video 😇 - Funny Cats Life",
+          "description": "Funniest Cats - Don't try to hold back Laughter Watch more cute animals! https://youtube.com/playlist?list=PLH.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/CDUm5smMC1k/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CDUm5smMC1k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CDUm5smMC1k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Funny Cats Life",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-23T12:00:12Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "A8C4bn3U38BzOQxRx2RbEmxupes",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "JxS5E-kZc2s"
+        },
+        "snippet": {
+          "publishedAt": "2015-09-05T06:00:17Z",
+          "channelId": "UCVaQwUU0NLkBeO6m7_j2U2Q",
+          "title": "Funny Cats Compilation (Most Popular) Part 1",
+          "description": "Video is compiled from all the funny by cute cats of worldwide ➔ Subscribe for NoCAT NoLiFE: http://goo.gl/sxSqUV (Help me ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JxS5E-kZc2s/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JxS5E-kZc2s/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JxS5E-kZc2s/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "NoCAT NoLiFE 2",
+          "liveBroadcastContent": "none",
+          "publishTime": "2015-09-05T06:00:17Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "CVxv1CYNgFNP7NS-hvhSA4viV14",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "YSHDBB6id4A"
+        },
+        "snippet": {
+          "publishedAt": "2021-11-14T06:00:07Z",
+          "channelId": "UCYPrd7A27nLhQONcCIfFTaA",
+          "title": "Funniest Cats 😹 - Don&#39;t try to hold back Laughter 😂 - Funny Cats Life",
+          "description": "Funniest Cats - Don't try to hold back Laughter Watch more cute animals! https://youtube.com/playlist?list=PLH.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/YSHDBB6id4A/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/YSHDBB6id4A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/YSHDBB6id4A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Funny Cats Life",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-11-14T06:00:07Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "F2fMleeUZdq1RB2Wzg7G7f0mZCE",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "_ISyOWtcosc"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-30T12:00:19Z",
+          "channelId": "UCYPrd7A27nLhQONcCIfFTaA",
+          "title": "😹 You Definitely Laugh, Trust me 😱 - Funniest Cats Expression Video 😇 - Funny Cats Life",
+          "description": "Funniest Cats - Don't try to hold back Laughter Watch more cute animals! https://youtube.com/playlist?list=PLH.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/_ISyOWtcosc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_ISyOWtcosc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_ISyOWtcosc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Funny Cats Life",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-30T12:00:19Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "AKvGDh6knoXGkmrJf6XJaZP-jJw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "_yqSbnbUsj4"
+        },
+        "snippet": {
+          "publishedAt": "2013-11-26T14:54:34Z",
+          "channelId": "UCFYMDSW-BzeYZKFSxROw3Rg",
+          "title": "Music Video - Cats",
+          "description": "FREE DOWNLOAD: http://www.mediafire.com/listen/3qj4ecmwvrnh3pl/TombstoneCatsShortVersion.mp3 Animation by Kirbopher ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/_yqSbnbUsj4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_yqSbnbUsj4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_yqSbnbUsj4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "The Living Tombstone",
+          "liveBroadcastContent": "none",
+          "publishTime": "2013-11-26T14:54:34Z"
+        }
+      }
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "content-length": "1289",
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Wed, 04 Jan 2023 02:42:21 GMT",
+    "server": "scaffolding on HTTPServer2",
+    "vary": "Origin, X-Origin, Referer"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": ["xhr", "http"],
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "params": {
+      "part": "snippet",
+      "key": "AIzaSyDbUQwGJ7lwEkNUHBMZjTw9AZwfjPoUk2k",
+      "q": "cats",
+      "type": "video"
+    },
+    "method": "get",
+    "url": "https://www.googleapis.com/youtube/v3/search"
+  },
+  "request": {}
+}
