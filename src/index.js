@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import SearchBar from './components/search_bar';
+import VideoDetail from './components/video_details'
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
@@ -56,6 +57,7 @@ class App extends React.Component {
     return (
       <div>
         <SearchBar onSearchTermChange={this.videoSearch} />
+        <VideoDetail video={this.state.selectedVideo} />
       </div>
     );
   }
